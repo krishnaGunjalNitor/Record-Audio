@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12DBD7F29A8C6F70051BEEB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12DBD7E29A8C6F70051BEEB /* AudioToolbox.framework */; };
+		B12DBD8629A8C7880051BEEB /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12DBD8229A8C7870051BEEB /* libmp3lame.a */; };
+		B12DBD8A29A8C8D00051BEEB /* MP3Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DBD8929A8C8D00051BEEB /* MP3Converter.swift */; };
+		B169507429AC70F400124749 /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B169507229AC70F400124749 /* ExtAudioConverter.m */; };
+		B169507629AC7D6600124749 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169507529AC7D6600124749 /* PlayerViewController.swift */; };
+		B1E7521229A736A200C195E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7521129A736A200C195E1 /* AppDelegate.swift */; };
+		B1E7521429A736A200C195E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7521329A736A200C195E1 /* SceneDelegate.swift */; };
+		B1E7521629A736A200C195E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7521529A736A200C195E1 /* ViewController.swift */; };
+		B1E7521929A736A200C195E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E7521729A736A200C195E1 /* Main.storyboard */; };
+		B1E7521B29A736A400C195E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E7521A29A736A400C195E1 /* Assets.xcassets */; };
+		B1E7521E29A736A400C195E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E7521C29A736A400C195E1 /* LaunchScreen.storyboard */; };
+		B1F47A0A29AD2890006C48A7 /* AudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F47A0829AD2890006C48A7 /* AudioCell.swift */; };
+		B1F47A0B29AD2890006C48A7 /* AudioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F47A0929AD2890006C48A7 /* AudioCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B12DBD7E29A8C6F70051BEEB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B12DBD8129A8C7860051BEEB /* RecordAudio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecordAudio-Bridging-Header.h"; sourceTree = "<group>"; };
+		B12DBD8229A8C7870051BEEB /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		B12DBD8429A8C7880051BEEB /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		B12DBD8529A8C7880051BEEB /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
+		B12DBD8929A8C8D00051BEEB /* MP3Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3Converter.swift; sourceTree = "<group>"; };
+		B169507229AC70F400124749 /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtAudioConverter.m; path = "../../../Downloads/ExtAudioFileConverter-master/ExtAudioConverter/ExtAudioConverter/ExtAudioConverter.m"; sourceTree = "<group>"; };
+		B169507529AC7D6600124749 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		B1E7520E29A736A200C195E1 /* RecordAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E7521129A736A200C195E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1E7521329A736A200C195E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1E7521529A736A200C195E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1E7521829A736A200C195E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1E7521A29A736A400C195E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E7521D29A736A400C195E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1E7521F29A736A400C195E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F47A0829AD2890006C48A7 /* AudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCell.swift; sourceTree = "<group>"; };
+		B1F47A0929AD2890006C48A7 /* AudioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E7520B29A736A200C195E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12DBD7F29A8C6F70051BEEB /* AudioToolbox.framework in Frameworks */,
+				B12DBD8629A8C7880051BEEB /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12DBD7D29A8C6F60051BEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B12DBD7E29A8C6F70051BEEB /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B12DBD8029A8C76D0051BEEB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B12DBD8529A8C7880051BEEB /* ExtAudioConverter.h */,
+				B169507229AC70F400124749 /* ExtAudioConverter.m */,
+				B12DBD8429A8C7880051BEEB /* lame.h */,
+				B12DBD8229A8C7870051BEEB /* libmp3lame.a */,
+				B12DBD8129A8C7860051BEEB /* RecordAudio-Bridging-Header.h */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B12DBD8829A8C8A70051BEEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B12DBD8929A8C8D00051BEEB /* MP3Converter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B1E7520529A736A200C195E1 = {
+			isa = PBXGroup;
+			children = (
+				B1F47A0529AD2837006C48A7 /* Custom Cell */,
+				B1E7521029A736A200C195E1 /* RecordAudio */,
+				B1E7520F29A736A200C195E1 /* Products */,
+				B12DBD7D29A8C6F60051BEEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E7520F29A736A200C195E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E7520E29A736A200C195E1 /* RecordAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E7521029A736A200C195E1 /* RecordAudio */ = {
+			isa = PBXGroup;
+			children = (
+				B12DBD8829A8C8A70051BEEB /* Services */,
+				B12DBD8029A8C76D0051BEEB /* Components */,
+				B1E7521129A736A200C195E1 /* AppDelegate.swift */,
+				B169507529AC7D6600124749 /* PlayerViewController.swift */,
+				B1E7521329A736A200C195E1 /* SceneDelegate.swift */,
+				B1E7521529A736A200C195E1 /* ViewController.swift */,
+				B1E7521729A736A200C195E1 /* Main.storyboard */,
+				B1E7521A29A736A400C195E1 /* Assets.xcassets */,
+				B1E7521C29A736A400C195E1 /* LaunchScreen.storyboard */,
+				B1E7521F29A736A400C195E1 /* Info.plist */,
+			);
+			path = RecordAudio;
+			sourceTree = "<group>";
+		};
+		B1F47A0529AD2837006C48A7 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B1F47A0829AD2890006C48A7 /* AudioCell.swift */,
+				B1F47A0929AD2890006C48A7 /* AudioCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E7520D29A736A200C195E1 /* RecordAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E7522229A736A400C195E1 /* Build configuration list for PBXNativeTarget "RecordAudio" */;
+			buildPhases = (
+				B1E7520A29A736A200C195E1 /* Sources */,
+				B1E7520B29A736A200C195E1 /* Frameworks */,
+				B1E7520C29A736A200C195E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordAudio;
+			productName = RecordAudio;
+			productReference = B1E7520E29A736A200C195E1 /* RecordAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E7520629A736A200C195E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B1E7520D29A736A200C195E1 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = B1E7520929A736A200C195E1 /* Build configuration list for PBXProject "RecordAudio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E7520529A736A200C195E1;
+			productRefGroup = B1E7520F29A736A200C195E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E7520D29A736A200C195E1 /* RecordAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E7520C29A736A200C195E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F47A0B29AD2890006C48A7 /* AudioCell.xib in Resources */,
+				B1E7521E29A736A400C195E1 /* LaunchScreen.storyboard in Resources */,
+				B1E7521B29A736A400C195E1 /* Assets.xcassets in Resources */,
+				B1E7521929A736A200C195E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E7520A29A736A200C195E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12DBD8A29A8C8D00051BEEB /* MP3Converter.swift in Sources */,
+				B1E7521629A736A200C195E1 /* ViewController.swift in Sources */,
+				B1E7521229A736A200C195E1 /* AppDelegate.swift in Sources */,
+				B1E7521429A736A200C195E1 /* SceneDelegate.swift in Sources */,
+				B1F47A0A29AD2890006C48A7 /* AudioCell.swift in Sources */,
+				B169507429AC70F400124749 /* ExtAudioConverter.m in Sources */,
+				B169507629AC7D6600124749 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1E7521729A736A200C195E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E7521829A736A200C195E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1E7521C29A736A400C195E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E7521D29A736A400C195E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E7522029A736A400C195E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1E7522129A736A400C195E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E7522329A736A400C195E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZVK6YW45L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecordAudio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordAudio/Components",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/RecordAudio/Components";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Krishna-Gunjal.RecordAudio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RecordAudio/Components/RecordAudio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1E7522429A736A400C195E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZVK6YW45L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecordAudio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordAudio/Components",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Krishna-Gunjal.RecordAudio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RecordAudio/Components/RecordAudio-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E7520929A736A200C195E1 /* Build configuration list for PBXProject "RecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E7522029A736A400C195E1 /* Debug */,
+				B1E7522129A736A400C195E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E7522229A736A400C195E1 /* Build configuration list for PBXNativeTarget "RecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E7522329A736A400C195E1 /* Debug */,
+				B1E7522429A736A400C195E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E7520629A736A200C195E1 /* Project object */;
+}
