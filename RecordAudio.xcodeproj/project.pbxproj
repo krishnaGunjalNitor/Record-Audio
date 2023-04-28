@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B12DBD7F29A8C6F70051BEEB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12DBD7E29A8C6F70051BEEB /* AudioToolbox.framework */; };
-		B12DBD8629A8C7880051BEEB /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12DBD8229A8C7870051BEEB /* libmp3lame.a */; };
 		B12DBD8A29A8C8D00051BEEB /* MP3Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12DBD8929A8C8D00051BEEB /* MP3Converter.swift */; };
-		B169507429AC70F400124749 /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B169507229AC70F400124749 /* ExtAudioConverter.m */; };
 		B169507629AC7D6600124749 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169507529AC7D6600124749 /* PlayerViewController.swift */; };
+		B1996F3A29FBE23700DDE6B3 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1996F3629FBE23600DDE6B3 /* libmp3lame.a */; };
+		B1996F3B29FBE23700DDE6B3 /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1996F3829FBE23700DDE6B3 /* ExtAudioConverter.m */; };
 		B1E7521229A736A200C195E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7521129A736A200C195E1 /* AppDelegate.swift */; };
 		B1E7521429A736A200C195E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7521329A736A200C195E1 /* SceneDelegate.swift */; };
 		B1E7521629A736A200C195E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7521529A736A200C195E1 /* ViewController.swift */; };
@@ -24,13 +24,13 @@
 
 /* Begin PBXFileReference section */
 		B12DBD7E29A8C6F70051BEEB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		B12DBD8129A8C7860051BEEB /* RecordAudio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecordAudio-Bridging-Header.h"; sourceTree = "<group>"; };
-		B12DBD8229A8C7870051BEEB /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
-		B12DBD8429A8C7880051BEEB /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		B12DBD8529A8C7880051BEEB /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
 		B12DBD8929A8C8D00051BEEB /* MP3Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3Converter.swift; sourceTree = "<group>"; };
-		B169507229AC70F400124749 /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtAudioConverter.m; path = "../../../Downloads/ExtAudioFileConverter-master/ExtAudioConverter/ExtAudioConverter/ExtAudioConverter.m"; sourceTree = "<group>"; };
 		B169507529AC7D6600124749 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		B1996F3529FBE23600DDE6B3 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		B1996F3629FBE23600DDE6B3 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		B1996F3729FBE23700DDE6B3 /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
+		B1996F3829FBE23700DDE6B3 /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioConverter.m; sourceTree = "<group>"; };
+		B1996F3929FBE23700DDE6B3 /* RecordAudio-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RecordAudio-Bridging-Header.h"; sourceTree = "<group>"; };
 		B1E7520E29A736A200C195E1 /* RecordAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E7521129A736A200C195E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E7521329A736A200C195E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12DBD7F29A8C6F70051BEEB /* AudioToolbox.framework in Frameworks */,
-				B12DBD8629A8C7880051BEEB /* libmp3lame.a in Frameworks */,
+				B1996F3A29FBE23700DDE6B3 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,11 +67,11 @@
 		B12DBD8029A8C76D0051BEEB /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				B12DBD8529A8C7880051BEEB /* ExtAudioConverter.h */,
-				B169507229AC70F400124749 /* ExtAudioConverter.m */,
-				B12DBD8429A8C7880051BEEB /* lame.h */,
-				B12DBD8229A8C7870051BEEB /* libmp3lame.a */,
-				B12DBD8129A8C7860051BEEB /* RecordAudio-Bridging-Header.h */,
+				B1996F3729FBE23700DDE6B3 /* ExtAudioConverter.h */,
+				B1996F3829FBE23700DDE6B3 /* ExtAudioConverter.m */,
+				B1996F3529FBE23600DDE6B3 /* lame.h */,
+				B1996F3629FBE23600DDE6B3 /* libmp3lame.a */,
+				B1996F3929FBE23700DDE6B3 /* RecordAudio-Bridging-Header.h */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -205,8 +205,8 @@
 				B1E7521629A736A200C195E1 /* ViewController.swift in Sources */,
 				B1E7521229A736A200C195E1 /* AppDelegate.swift in Sources */,
 				B1E7521429A736A200C195E1 /* SceneDelegate.swift in Sources */,
+				B1996F3B29FBE23700DDE6B3 /* ExtAudioConverter.m in Sources */,
 				B1F47A0A29AD2890006C48A7 /* AudioCell.swift in Sources */,
-				B169507429AC70F400124749 /* ExtAudioConverter.m in Sources */,
 				B169507629AC7D6600124749 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,11 +358,11 @@
 				DEVELOPMENT_TEAM = 3ZVK6YW45L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecordAudio/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCY_NAME) Use Microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,11 +375,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Krishna-Gunjal.RecordAudio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RecordAudio/Components/RecordAudio-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,11 +397,11 @@
 				DEVELOPMENT_TEAM = 3ZVK6YW45L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecordAudio/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCY_NAME) Use Microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,10 +413,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Krishna-Gunjal.RecordAudio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RecordAudio/Components/RecordAudio-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
